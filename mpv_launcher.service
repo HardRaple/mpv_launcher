@@ -1,0 +1,9 @@
+[Unit]
+Description=mpv_launcher
+
+[Service]
+ExecStart=/bin/bash /home/teacher/Документы/bash_mpv_launcher.sh
+
+[Install]
+WantedBy=default.target
+
